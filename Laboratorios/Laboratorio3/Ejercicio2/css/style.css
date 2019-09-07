@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 20px;
+    padding: 10px;
+    height: 100%;
+    color: antiquewhite;
+    font-family: 'Arvo', serif;
+}
+
+.flex-container1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    
+}
+
+.openSource{
+    background-color: blueviolet;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px;
+    margin: 10px;
+}
+
+.downloadSite{
+    background-color: blue;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px;
+    margin: 10px;
+
+}
+
+.faq{
+    background-color: crimson;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px;
+    margin: 10px;
+
+}
+
+.flex-container2{
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+hr{
+    width: 50%;
+    border-width: 2px;
+    display: block;
+    color: white;
+}
+.flex-container2 img{
+    max-width: 80px;
+    border-radius: 100%;
+    margin: 1.5%;
+}
+
+footer {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   justify-content: space-around;
+   
+  }
+.contact{
+    opacity: 0.8;
+    background: #2b2b2b;
+    color: antiquewhite;
+    border: 5px
+}
+.help{
+    opacity: 0.8;
+    background: #2b2b2b;
+    color: antiquewhite;
+    border: 5px;
+}
+
+  button:hover {
+    background-color: #777777;
+  }
+
+  img:hover{
+    background-color: #777777;
+  
+}
+
